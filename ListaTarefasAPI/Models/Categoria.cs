@@ -6,6 +6,6 @@
 
         public string Nome { get; set; }
 
-        public string Descriacao { get; set; }
+        public string Descricao { get; set; }
     }
 }

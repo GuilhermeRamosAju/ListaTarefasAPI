@@ -4,7 +4,7 @@
     {
         public int Id { get; set; }
 
-        public string Name { get; set; }
+        public string Nome { get; set; }
 
         public string Email { get; set; }
 
@@ -12,6 +12,6 @@
 
         public DateTime DataCriacao { get; set; } = DateTime.Now;
 
-        public string Perfil { get; set; }
+        public string Perfil { get; set; } = "Comum";
     }
 }
